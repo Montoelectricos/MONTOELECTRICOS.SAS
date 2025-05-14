@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MONTOELECTRICOS</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; }
+    .services, .products { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    footer { background: #222; color: white; text-align: center; padding: 10px; }
+    .card { border: 1px solid #ccc; padding: 20px; border-radius: 10px; }
+    form input, form textarea { width: 100%; padding: 10px; margin-top: 10px; }
+    form button { margin-top: 10px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MONTOELECTRICOS</h1>
+    <p>Venta de productos eléctricos y servicios profesionales</p>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="servicios">
+    <h2>Servicios Eléctricos</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Instalaciones Residenciales</h3>
+        <p>Montaje completo de sistemas eléctricos en casas y departamentos.</p>
+      </div>
+      <div class="card">
+        <h3>Mantenimiento</h3>
+        <p>Revisión, reparación y actualización de instalaciones eléctricas.</p>
+      </div>
+      <div class="card">
+        <h3>Automatización</h3>
+        <p>Soluciones para automatización de iluminación y energía.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Productos Eléctricos</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Interruptores</h3>
+        <p>Desde $5.00</p>
+      </div>
+      <div class="card">
+        <h3>Focos LED</h3>
+        <p>Desde $3.00</p>
+      </div>
+      <div class="card">
+        <h3>Cableado</h3>
+        <p>Desde $1.50 por metro</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MONTOELECTRICOS. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
